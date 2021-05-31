@@ -18,6 +18,7 @@
 
     SPRING_PROFILES_ACTIVE=test ./gradlew cleanTest test
 ## run with docker
+    #.env파일은 필요에따라 수정가능
     #도커 컨테이너 모두 실행
     docker-compose up
-<hr>
+
