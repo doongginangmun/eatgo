@@ -21,4 +21,14 @@
     #.env파일은 필요에따라 수정가능
     #도커 컨테이너 모두 실행
     docker-compose up
-
+    
+    #컨테이너가 실행되고있는지 확인     
+    docker ps -a
+    #컨테이너 접속
+    docker exec -it <컨테이너이름 or ID> bash
+    #sql 접속
+    mysql -u root -p
+    #DB 확인 & 사용
+    show databases;
+    use db이름;
+    
