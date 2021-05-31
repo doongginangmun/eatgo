@@ -7,11 +7,11 @@
     
 ## Build Jar
 + window일 경우
-
+```Java
     gradlew bootJar
-    
+```    
 + mac일 경우
-
+```Java
     ./graldew bootJar
-    
+```    
 <hr>
