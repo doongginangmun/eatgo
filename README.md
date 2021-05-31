@@ -1,10 +1,10 @@
 # eatgo-springboot
 
-## 명령어
+## Install dependencies for web 
+------------------
     
-------------------
-2. 두번쨰
-------------------
-3. 3번쨰 
-------------------
+    bash -c "cd eatgo-admin-web && npm install"
+    bash -c "cd eatgo-customer-web && npm install"
+    bash -c "cd eatgo-restaurant-web && npm install"
+    
 <hr>
