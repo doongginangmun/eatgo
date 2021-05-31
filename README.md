@@ -28,7 +28,8 @@
     docker exec -it <컨테이너이름 or ID> bash
     #sql 접속
     mysql -u root -p
-    #DB 확인 & 사용
+    #DB 확인
     show databases;
+    #DB 접속
     use db이름;
     
