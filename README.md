@@ -14,4 +14,9 @@
 ```Java
     ./graldew bootJar
 ```    
+## Test All
+
+    SPRING_PROFILES_ACTIVE=test ./gradlew cleanTest test
+
+
 <hr>
