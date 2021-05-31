@@ -6,8 +6,8 @@
     bash -c "cd eatgo-restaurant-web && npm install"
     
 ## Build Jar
-    + window일 경우
++ window일 경우
     gradlew bootJar
-    + mac일 경우
++ mac일 경우
     ./graldew bootJar
 <hr>
